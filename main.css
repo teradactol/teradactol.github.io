@@ -1,0 +1,57 @@
+body{
+    background-color: #fcfcfc;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#header{
+    margin-top: 40px;
+}
+
+#logo{
+    height: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+#company_title{
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+#mantra{
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.block{
+    line-height: 40px;
+}
+
+.team_name{
+    font-size: larger;
+    font-weight: bold;
+}
+
+#message_prompt
+{
+    color: #8D4C27;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#who_we_are_prompt{
+    color: #450F1C;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.prompt{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
