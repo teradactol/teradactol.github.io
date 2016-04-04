@@ -21,6 +21,7 @@ body{
 #company_title{
     line-height: 40px;
     vertical-align: middle;
+    text-align: center;
 }
 
 #mantra{
@@ -54,4 +55,12 @@ body{
 .prompt{
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.message{
+    margin-bottom:40px;
+}
+
+.msgtxt{
+    text-align: justify;
 }
