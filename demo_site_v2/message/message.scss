@@ -1,0 +1,26 @@
+#message{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 18px;
+  #msg_head{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .team_name{
+    font-weight: bold;
+    color:#EA4335;
+  }
+  .avatar{
+    border-radius: 10px;
+  }
+  .msg_box{
+    margin-bottom: 60px;
+  }
+  .msg_r{
+    text-align: right;
+  }
+  .msg_l{
+    text-align: justify;
+  }
+}

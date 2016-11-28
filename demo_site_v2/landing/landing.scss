@@ -1,0 +1,33 @@
+#landing{
+  height: 100%;
+  #splash{
+    margin-top: 40%;
+    text-align: center;
+    #logo{
+      width: 100px;
+    }
+
+    #logo_name{
+      font-size: 50px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+
+    #logo_tagline{
+      font-size: 10px;
+      opacity: .8;
+    }
+
+    #go-on{
+      margin-top: 10%;
+        .fa{
+          font-size: x-large;
+          font-weight: 400;
+        }
+    }
+
+    #go-on:hover{
+      cursor: pointer;
+    }
+  }
+}

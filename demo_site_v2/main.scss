@@ -1,0 +1,19 @@
+@import "styles/box-sizing";
+html,body{
+  height:100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import "landing/landing";
+@import "what-we-do/what-we-do";
+@import "message/message";
+
+#particleAnimation{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.color_red{
+  color:#EA4335;
+}
