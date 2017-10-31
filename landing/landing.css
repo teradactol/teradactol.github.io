@@ -1,0 +1,45 @@
+#landing {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#landing #splash {
+  text-align: center;
+}
+
+#landing #splash #logo {
+  width: 100px;
+}
+
+#landing #splash #logo_name {
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+#landing #splash #logo_tagline {
+  font-size: 10px;
+  opacity: .8;
+}
+
+#landing #splash #logo_tagline a {
+  color: inherit;
+}
+
+#landing #splash #go-on {
+  margin-top: 10%;
+}
+
+#landing #splash #go-on .fa {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+#landing #splash #go-on:hover {
+  cursor: pointer;
+}
+ 
+
+ /*# sourceMappingURL= landing.css.map */

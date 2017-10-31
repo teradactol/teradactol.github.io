@@ -1,66 +1,144 @@
-body{
-    background-color: #fcfcfc;
-    overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-
-#header{
-    margin-top: 40px;
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-#logo{
-    height: 40px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%);
-    transform: translateX(-50%);
+html, body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
-#company_title{
-    line-height: 40px;
-    vertical-align: middle;
-    text-align: center;
+#menu {
+  width: 100%;
+  margin-top: .6rem;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  left: 0;
+  top: 0;
 }
 
-#mantra{
-    line-height: 40px;
-    vertical-align: middle;
-    text-align: center;
+#landing {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.block{
-    line-height: 40px;
+#landing #splash {
+  text-align: center;
 }
 
-.team_name{
-    font-size: larger;
-    font-weight: bold;
+#landing #splash #logo {
+  width: 100px;
 }
 
-#message_prompt
-{
-    color: #8D4C27;
-    font-size: larger;
-    font-weight: bold;
+#landing #splash #logo_name {
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 20px;
 }
 
-#who_we_are_prompt{
-    color: #450F1C;
-    font-size: larger;
-    font-weight: bold;
+#landing #splash #logo_tagline {
+  font-size: 10px;
+  opacity: .8;
 }
 
-.prompt{
-    margin-bottom: 20px;
-    margin-top: 20px;
+#landing #splash #logo_tagline a {
+  color: inherit;
 }
 
-.message{
-    margin-bottom:40px;
+#landing #splash #go-on {
+  margin-top: 10%;
 }
 
-.msgtxt{
-    text-align: justify;
+#landing #splash #go-on .fa {
+  font-size: x-large;
+  font-weight: 400;
 }
+
+#landing #splash #go-on:hover {
+  cursor: pointer;
+}
+
+#what-we-do {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #111;
+}
+
+#what-we-do #wwd_head {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+#what-we-do #wwd_title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+#what-we-do .wwd_body {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#message {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 18px;
+}
+
+#message #msg_head {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#message .team_name {
+  font-weight: bold;
+  color: #EA4335;
+}
+
+#message .avatar {
+  border-radius: 10px;
+}
+
+#message .msg_box {
+  margin-bottom: 60px;
+}
+
+#message .msg_r {
+  text-align: right;
+}
+
+#message .msg_l {
+  text-align: justify;
+}
+
+#particleAnimation {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.color_red {
+  color: #EA4335;
+}
+ 
+
+ /*# sourceMappingURL= main.css.map */
