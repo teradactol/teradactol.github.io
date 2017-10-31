@@ -1,0 +1,35 @@
+#message {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 18px;
+}
+
+#message #msg_head {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#message .team_name {
+  font-weight: bold;
+  color: #EA4335;
+}
+
+#message .avatar {
+  border-radius: 10px;
+}
+
+#message .msg_box {
+  margin-bottom: 60px;
+}
+
+#message .msg_r {
+  text-align: right;
+}
+
+#message .msg_l {
+  text-align: justify;
+}
+ 
+
+ /*# sourceMappingURL= message.css.map */

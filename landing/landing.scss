@@ -1,12 +1,13 @@
 #landing{
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   #splash{
-    margin-top: 40%;
-    text-align: center;
+    text-align: center;        
     #logo{
       width: 100px;
     }
-
     #logo_name{
       font-size: 50px;
       font-weight: 900;
@@ -16,6 +17,9 @@
     #logo_tagline{
       font-size: 10px;
       opacity: .8;
+      a{
+        color: inherit
+      }
     }
 
     #go-on{

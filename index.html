@@ -1,13 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Teradactol. Inc</title>
-    <link rel="stylesheet" href="uc.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#000">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css?v=0.0.9"/>
 </head>
-<body>
-    <img id="uc_logo" src="uc_bg.jpg" alt="">
-    <script src="uc.js"></script>
+<body class="container-fluid">
+<div id="particleAnimation"></div>
+<div id="menu">
+    <div class="menu_entry">blog</div>
+</div>
+<div class="row section" id="landing">
+    <div class="col-lg-4">
+
+    </div>
+    <div class="col-lg-4">
+        <div id="splash">
+            <img src="images/mascot_bg.png" alt="" id="logo"/>
+            <div id="logo_name">TERADACTOL</div>
+            <div id="logo_tagline"><a href="mailto:hello@teradactol.com">hello@teradactol.com</a></div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+
+    </div>
+</div>
+
+<!-- <div class="row section" id="what-we-do" >
+    <div class="col-lg-3">
+
+    </div>
+    <div class="col-lg-6">
+        <p id="wwd_head">A <b class="color_red">SOFTWARE DEVELOPMENT</b> STARTUP IN <b class="color_red">UG</b>  COMBINING</p>
+        <h2 id="wwd_title">Passion, creativity and an underdog approach</h2>
+        <p class="wwd_body">Teradactol is a software engineering startup hailing from "The pearl of africa <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Africa_icon.png" height="25px" alt="" class="">" ( <b class="color_red">Ug</b>anda... for those who don't know ).</p>
+        <p class="wwd_body">In simple terms, we build software, in not so simple terms... we still build software ( and yes that includes websites ). For any device that contains a chip
+            <img src="http://www.iconshock.com/img_jpg/BETA/computer_gadgets/jpg/256/chip_icon.jpg" height="20px" alt="">, best be assured we can either write or learn how to write a program for it</p>
+        <p class="wwd_body">We also love pizza!<img src="http://www.freeiconspng.com/uploads/pizza-slice-icon-6.png" height="20px" alt="">... :))))))</p>
+    </div>
+    <div class="col-lg-3">
+
+    </div>
+</div>
+
+<div class="row section" id="message" >
+    <div class="col-lg-3">
+
+    </div>
+    <div class="col-lg-6">
+        <p id="msg_head">## A message from ( some of ) us</p>
+        <div class="msg_l msg_box">
+            <p>
+                <img class="avatar" src="https://scontent.fnbo1-1.fna.fbcdn.net/v/t1.0-9/14333743_1504367736256088_1638420931155167852_n.jpg?oh=f1bf37cc1f988c017e6c035b72d62d99&oe=58CCCDA7" height="200px" alt=""/>
+            </p>
+            <p>
+                <span class="team_name">&gt;&gt; Bishaka Samuel</span>, Co-founder, Developer <img src="http://94.136.40.103/~grammargeek.co.uk/wordpress/wp-content/uploads/2013/04/Subculture-Glasses-icon-2.png" height="20px" alt="">, lover <img src="http://images.clipartpanda.com/pink-heart-outline-clipart-aTexGLAT4.png" height="20px" alt=""> of code
+            </p>
+            <p>
+                <a href="https://twitter.com/sbishaka" target="_blank"><img src="https://g.twimg.com/Twitter_logo_blue.png" height="20px" alt=""></a>
+                <a href="https://web.facebook.com/bishaka.samuel" target="_blank"><img src="https://www.techmesto.com/wp-content/uploads/2015/10/fb-logo.png" height="20px" alt=""></a>
+                <a href="https://github.com/ghostfreak3000" target="_blank"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" height="30px" alt=""></a>
+                <a href="mailto:sam@teradactol.com?Subject=Hi%20there!" target="_top"><img src="http://www.mona.uwi.edu/library/sites/default/files/library/uploads/email_icon.png" height="30px" alt=""></a>
+            </p>
+            <p class="">I believe that, with alittle perseverence, even software can make a difference in someone else's life.</p>
+            <p>Teradactol is unique. We do not intend to be the same as everyone else, nor as we were yesterday.</p>
+            <p>We will make a difference. Why?. Well.. Just take a look at our mantra.</p>
+        </div>
+        <div class="msg_r msg_box">
+            <p>
+                <span class="team_name">&gt;&gt; Charles Kyewalabye Kiwabs</span>, Co-founder, Software Engineer and Developer, Business analyst <img src="businessman.png" height="20px" alt="">
+            </p>
+            <p>
+                <a href="https://twitter.com/kiwabs" target="_blank"><img src="https://g.twimg.com/Twitter_logo_blue.png" height="20px" alt=""></a>
+                <a href="https://bitbucket.org/CharleyBruff/" target="_blank"><img src="https://worldvectorlogo.com/logos/bitbucket.svg" height="20px" alt=""></a>
+                <a href="mailto:sbishaka@gmail.com?Subject=Hi%20there!" target="_top"><img src="http://www.mona.uwi.edu/library/sites/default/files/library/uploads/email_icon.png" height="30px" alt=""></a>
+            </p>
+            <p class="">At Teradactol we write lines, create intelligence, we create life <i class="em em-baby"></i> </p>
+        </div>
+        <div class="msg_l msg_box">
+            <p>
+                <span class="team_name">&gt;&gt; Muheirwe Julian</span>, Co-founder, Developer, <i class="em em-muscle"></i> <i class="em em-point_left"></i>, don't mess
+            </p>
+            <p class="">The responsibility placed in your hands when you do the work we do is greater than you, it goes past you to the world around you.</p>
+            <p>Thats why at Teradactol we are ever reinventing ourselves and keeping pace but also building ground breaking products that keep positively affecting and infecting the world around us.</p>
+            <p>What a priviledge we have now,  to speak to the most intelligent machine modern technology has birthed and it too responds as long as we tell it to. Indeed a gene in a bottle and at Teradactol we make the ghost whisperers.</p>
+        </div>
+    </div>
+    <div class="col-lg-3">
+
+    </div>
+</div> -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="vendors/particleground/jquery.particleground.min.js"></script>
+<script src="vendors/smoothscroll/smoothscroll.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
